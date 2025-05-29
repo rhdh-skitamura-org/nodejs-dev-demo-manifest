@@ -1,0 +1,14 @@
+apiVersion: route.openshift.io/v1
+kind: Route
+metadata:
+  name: webhook-nodejs-dev-demo-el 
+spec:
+  tls:
+    termination: edge
+  to:
+    kind: Service
+    name: el-nodejs-dev-demo-listener
+    weight: 100
+  port:
+    targetPort: http-listener
+  wildcardPolicy: None
