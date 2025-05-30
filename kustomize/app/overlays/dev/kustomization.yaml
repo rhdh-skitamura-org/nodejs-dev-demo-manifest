@@ -10,6 +10,6 @@ commonLabels:
 namespace: nodejs-dev-demo
 
 images:
-- digest: sha256:20de2783b76ca549e805d60f5396c62446a6e0df78d554ff5201d535742a4eb8
+- digest: sha256:495d065f2f98e23f664ae630f548e42c8be50b8e5ac22f61eb8067146742d48e
   name: ___IMAGE_URL___@___IMAGE_DIGEST___
   newName: quay-registry-quay-quay.apps.rosa.sb1237-rosa.b20c.p3.openshiftapps.com/skitamura-quay-org/nodejs-dev-demo/nodejs-dev-demo
