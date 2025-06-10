@@ -5,7 +5,7 @@ metadata:
     app: nodejs-dev-demo
   name: nodejs-dev-demo
 spec:
-  replicas: 1
+  replicas: 5
   revisionHistoryLimit: 3
   selector:
     matchLabels:
