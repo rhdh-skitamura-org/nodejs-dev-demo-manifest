@@ -7,6 +7,6 @@ resources:
 namespace: nodejs-dev-demo-production
 
 images:
-- digest: sha256:a14cbe3bcbf1cd02abbd0fb62b9c6ad2bf1733e4228a20a4c6f5ad9dfea0fd15
+- digest: sha256:2b2dfbe6c960e2634ee05a8bde5a31f2ee4a075ba2d7283d5396b765651dc44e
   name: ___IMAGE_URL___@___IMAGE_DIGEST___
   newName: quay-registry-quay-quay.apps.rosa.sb1237-rosa.b20c.p3.openshiftapps.com/skitamura-quay-org/nodejs-dev-demo/nodejs-dev-demo
